@@ -3,6 +3,7 @@
 #include <string>
 #include <random>
 #include <ctime>
+#include <algorithm>
 
 enum class Rank {
     Ace = 1,
