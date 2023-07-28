@@ -22,7 +22,20 @@ After compiling the program, you can run the Blackjack game by executing the `bl
 
 ./blackjack
 
-Follow the on-screen instructions to play the game. You will be prompted to choose actions like "Hit" or "Stand" during your turn.
+### Gameplay 
+
+The game will display the player's hand and one of the dealer's cards. You'll then be asked to choose an action:
+
+- Enter `1` to "hit" (draw another card) and try to improve your hand's total value.
+- Enter `2` to "stand" (keep your current hand) and let the dealer play their hand.
+
+### Winning Conditions
+
+The dealer will draw cards until reaching a total value of at least 17. If the dealer goes over 21, they "bust," and you win. If neither the player nor the dealer busts, the one with the higher total value wins. If both have the same total value, it's a draw.
+
+### Play Again
+
+After each hand, you'll be asked if you want to play another hand. Enter `y` or `Y` to play again or any other key to exit the game.
 
 ### Vegas-style Rules
 
